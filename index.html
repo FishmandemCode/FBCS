@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<!-- CSS file Link-->
+<link rel=stylesheet type="text/css" href="../static/style.css">
+<style>
+</style>
+</head>
+<body>
+	<div class="main_page">
+		<div class="form_box">
+			<!-- Create a switch with the login & registration option-->
+			<div class="Switch">
+				<div id="btn"></div>
+				<button type="button" class="btn_log" onclick="login()">&nbsp&nbspLogin</button>
+				<button type="button" class="btn_log" onclick="register()">&nbspRegister</button>
+			</div>
+			<!-- Login Form action post will send data to flask server to check if information provided by user valid or to activate authentication mode-->
+			<form action = "/login" id = "log" class ="i_g" method = "POST">
+				<input type="Text" class="Input_f" name = "name" placeholder="Enter Username" required>
+				<input type="Password" class="Input_f" name = "pass" placeholder="Enter Password" required>
+				<button type="submit" class="submit_b" name = submit>Login</button>
+				<button type="submit" class="submit_b" name = Authen formnovalidate >Authenticate</button>
+			</form>
+			<!-- Register Form action post it will send the data inputed in teh text box to the flask server for registration-->
+			<form action = "/register" id = "reg" class ="i_g" name = "registration" value = "reg" method = "POST">
+				<input type="Text" class="Input_f" name = "email" placeholder="Email ID" required>
+				<input type="Text" class="Input_f" name = "Rname" placeholder="User ID" required>
+				<input type="Password" class="Input_f" name = "Rpass" placeholder="Password" required>
+				<input type="checkbox" class="Check_b" name = "term" required><span>I agree to the <a href="https://www.nyan.cat/" target="_blank" style = color:black;>Terms & Conditions</a></span>
+				<button type="submit" class="submit_b" name = submit>Register</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- The below Script is used to create the animation for the button for login & register -->
+	<script>
+		var x =  document.getElementById("log");
+		var y =  document.getElementById("reg");
+		var z =  document.getElementById("btn");
+
+		function register(){
+			x.style.left="-400px";;
+			y.style.left="50px";
+			z.style.left="110px";
+		}
+
+		function login(){
+			x.style.left="50px";;
+			y.style.left="450px";
+			z.style.left="0px";
+		}	
+	</script>
+
+
+</body>
+</html>

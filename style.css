@@ -1,0 +1,172 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+html{
+	background-image: linear-gradient(60deg, #0a0a0a, #464949);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.form_box{
+	width: 420px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #a7aaa7;
+	padding: 5px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.Switch{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	background: #a89e9e;
+	border-radius: 30px;
+
+}
+
+.btn_log{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: rgb(255, 255, 255);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+#btn1{
+	top: 0;
+	left: 110px;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: rgb(255, 255, 255);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.i_g{
+	top: 140px;
+	position: absolute;
+	width: 320px;
+	transition: .5s;
+}
+
+::placeholder{
+	color: rgb(255, 255, 255);
+}
+
+.Input_f{
+	width: 100%;
+	padding: 10px  0;
+	margin: 10px 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	outline: none;
+	background: transparent;
+}
+
+.submit_b{
+	margin: 30px 20px;
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	background: linear-gradient(40deg, rgb(255, 255, 255), rgb(255, 255, 255));
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.Check_b{
+	margin: 30px 10px
+}
+
+span{
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	margin: 30px 0px 20px 0px;
+	position: absolute;
+}
+
+#log{
+	left: 50px;
+}
+
+#reg{
+	left: 450px;
+}
+
+
+#log1{
+	right: 450px;
+}
+
+#reg1{
+	right: 50px;
+}
+
+input {
+	color:white;
+  }
+
+p{
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+	position: absolute;
+}
+
+h2{
+	margin: 60px auto;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	text-align: center;
+}
+
+
+table.styletable {
+	margin-left: auto;
+  	margin-right: auto;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	border: 3px solid;
+	border-radius: 30px;
+	border-color: #ffffff;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.styletable thead tr {
+    color: #ffffff;
+    text-align: left;
+}
+
+.styletable th,.styletable td {
+	text-align: center;
+	color: #ffffff;
+    padding: 12px 15px;
+}
