@@ -6,7 +6,7 @@ What is the Product?
 - Uses Fingerprints to authenticate users
 
 Key Skills Utilized:
-- ython: The primary language orchestrating the system's control logic, ensuring robust functionality and seamless integration.
+- Python: The primary language orchestrating the system's control logic, ensuring robust functionality and seamless integration.
 - HTML, CSS & JavaScript: Crafted an intuitive Web GUI to enhance user interaction, providing a seamless experience for system operation.
 - SQL: Employed a secure and scalable database for the storage of user login information, ensuring data integrity and access control.
 - lask: Hosted the Web Server internally, leveraging Flask's lightweight and powerful capabilities for optimal performance within the network.
