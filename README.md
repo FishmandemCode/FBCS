@@ -5,6 +5,13 @@ What is the Product?
 - An authentication system to stream line the commercial check in process while increasing security
 - Uses Fingerprints to authenticate users
 
+Key Skills Utilized:
+- ython: The primary language orchestrating the system's control logic, ensuring robust functionality and seamless integration.
+- HTML, CSS & JavaScript: Crafted an intuitive Web GUI to enhance user interaction, providing a seamless experience for system operation.
+- SQL: Employed a secure and scalable database for the storage of user login information, ensuring data integrity and access control.
+- lask: Hosted the Web Server internally, leveraging Flask's lightweight and powerful capabilities for optimal performance within the network.
+- Hardware Integration: Utilized Raspberry Pi as the central hub, demonstrating proficiency in hardware orchestration. Integrated the R307 Finger-based Scanner for reliable biometric data collection, enhancing security measures.
+
 Key Features:
 - Fingerprint scanner: The R307 finger print scanner used in this project waits for a finger to be placed on the scanner, once done, if authenticated, it activates the solenoid to unlock the door. The scanner is also used during the enrollment process to store alongside the user ID.
 - Web based application with the GUI: The user will use to interact with the application. Uses Flask to run a web application that will give the user the option to either log in with just the credentials, or to create a new account.
