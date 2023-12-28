@@ -9,7 +9,7 @@ Key Skills Utilized:
 - Python: The primary language orchestrating the system's control logic, ensuring robust functionality and seamless integration.
 - HTML, CSS & JavaScript: Crafted an intuitive Web GUI to enhance user interaction, providing a seamless experience for system operation.
 - SQL: Employed a secure and scalable database for the storage of user login information, ensuring data integrity and access control.
-- lask: Hosted the Web Server internally, leveraging Flask's lightweight and powerful capabilities for optimal performance within the network.
+- Flask: Hosted the Web Server internally, leveraging Flask's lightweight and powerful capabilities for optimal performance within the network.
 - Hardware Integration: Utilized Raspberry Pi as the central hub, demonstrating proficiency in hardware orchestration. Integrated the R307 Finger-based Scanner for reliable biometric data collection, enhancing security measures.
 
 Key Features:
